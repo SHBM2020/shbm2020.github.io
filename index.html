@@ -1,0 +1,183 @@
+/* ====================== SH Business Management 5★ Corporate Style ====================== */
+
+/* Reset & basics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #004080;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #00264d;
+    color: #fff;
+    padding: 20px 0;
+}
+header h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #0073e6;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #e6f2ff, #ffffff);
+    border-radius: 12px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.hero h2 {
+    font-size: 40px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.service-card {
+    background-color: #fff;
+    flex: 1 1 280px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+}
+.service-card h3 {
+    color: #004080;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.service-card ul {
+    list-style: disc inside;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Partner-Led Section */
+.partner-led {
+    background-color: #f1f7fc;
+    padding: 40px 30px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.partner-led h3 {
+    font-size: 28px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+.partner-led ul {
+    list-style: disc inside;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #e6f2ff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.contact h3 {
+    color: #004080;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.contact p, .contact a {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.contact a {
+    font-weight: bold;
+    color: #004080;
+}
+
+/* Footer */
+footer {
+    background-color: #00264d;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 50px;
+}
+footer p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+footer a {
+    color: #66b3ff;
+    text-decoration: underline;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 10px;
+}
+footer ul li {
+    margin: 0 10px;
+    font-size: 15px;
+}
