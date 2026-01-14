@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initial Consultation | SH Business Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SH Business Management Limited</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="landlord.html">Landlords</a></li>
+            <li><a href="investors.html">Investors</a></li>
+            <li><a href="publicsector.html">Public Sector</a></li>
+            <li><a href="insurance.html">Insurance & Brokerage</a></li>
+            <li><a href="consultation.html" class="active">Consultation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="consultation">
+        <h2>Book Your Initial Consultation</h2>
+        <p>Complete this form and our team will contact you to arrange a one-to-one consultation. We provide expert guidance in real estate, business consultancy, and partner-led services across the UK & Northern Ireland.</p>
+        
+        <form action="mailto:samuel@enquiriesshbm.com" method="post" enctype="text/plain">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+                <option value="landlord">Landlord Services</option>
+                <option value="investors">Investor Advisory</option>
+                <option value="publicsector">Public Sector Consultancy</option>
+                <option value="insurance">Insurance & Brokerage</option>
+                <option value="other">Other / General Enquiry</option>
+            </select>
+
+            <label for="message">Additional Information</label>
+            <textarea id="message" name="message" placeholder="Tell us about your needs…"></textarea>
+
+            <button type="submit">Submit Consultation Request</button>
+        </form>
+
+        <p class="note">All information is confidential and handled in accordance with our <a href="privacy.html">Privacy Policy</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2026 SH Business Management Limited</p>
+    <ul>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
